@@ -1,13 +1,24 @@
 - name: Languages
-  descr: Something foobar
   tags:
     - tag: C#
     - tag: Python
     - tag: JavaScript
+    - tag: TypeScript
+    - tag: HTML/CSS
+    - tag: Java
+    - tag: C
+    - tag: Ruby
 
 - name: Technologies
-  descr: Something foobar
   tags:
-    - tag: AWS
+    - tag: Web Development
+    - tag: Rest Architecture
+    - tag: SQL
+    - tag: NoSQL
+    - tag: ASP.NET
+    - tag: React.js
     - tag: Linux
+    - tag: AWS
+    - tag: CICD
     - tag: Jekyll
+    - tag: Godot

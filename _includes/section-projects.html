@@ -22,7 +22,11 @@
         {% endfor %}
         {% if project.demo %}
           <a class="project-demo-url" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Demo
+            {% if project.demo_text %}
+              {{project.demo_text}}
+            {% else %}
+              Demo
+            {% endif %}
           </a>
         {% endif %}
         {% if project.tags %}

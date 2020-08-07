@@ -16,7 +16,7 @@
 - name: Bears on ATVs
   github_url: https://github.com/ludditegames/bears_on_atvs
   descr: "This 2D sidescroller video game is about a rogue bear that learns to drive an ATV. Created with C# and the Godot Engine over 2+ years, this massive project makes heavy use of hierarchical object-oriented design patterns. Each node is a finite state machine, governed by strict priority-based rules for transitioning between states."
-  descr_paragraph2: "I had to gain working knowledge of the many diverse components that go into making a video game: physics, graphics, UI/UX, playability, etc. I also created all of the music and artwork, which was a delightful use of 'the other side of the brain'." 
+  descr_paragraph2: "While working on this project, I had to gain working knowledge of the many diverse components that go into making a video game: physics, graphics, UI/UX, playability, etc. I also created all of the music and artwork, which was a delightful use of 'the other side of the brain'." 
   screenshots:
     - /assets/img/boatvs1.gif
   demo: https://ludditegames.com/bears-on-atvs/
@@ -27,12 +27,40 @@
     - tag: Computer Graphics
     - tag: NoSQL
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Jekyll-Leaflet
+  github_url: https://github.com/DavidJVitale/jekyll-leaflet
+  descr: This Jekyll plugin allows you to embed dynamic Leaflet.js maps in static websites. You can use Liquid to pull the spatial data from posts, then draw points, polygons, geojson, etc.
+  descr_paragraph2: I use this plugin for my <a href="https://davidjvitale.com/blog/travel/">personal travel blog</a>, and it works quite nicely!
+  demo: https://davidjvitale.com/tech/jekyll-leaflet/
+  screenshots:
+    - /assets/img/jekyll-leaflet-1.jpg
+  tags:
+    - tag: Jekyll
+    - tag: Leaflet.js
+    - tag: Ruby
+    - tag: JavaScript
+    - tag: Geospatial Data
+
+- name: ArcGIS Python API Map Widget
+  descr: While working as a Software Engineer at Esri, I was tasked with creating a "Map Widget" for use in Jupyter Notebooks. This widget allows users to run Python code that talks to the ArcGIS API for JavaScript, creating beautiful visualizations of spatial data in an interactive map.
+  descr_paragraph2: This widget plays a crucial role in the spatial data science process—as you experiment with analytic Python code, you can visualize intermediate results in real time, adjusting your code as needed.
+  screenshots:
+    - /assets/img/widget-1.gif
+  demo: https://developers.arcgis.com/python/guide/advanced-map-widget-usage/
+  demo_text: Docs
   tags:
     - tag: Python
-    - tag: Django
+    - tag: JavaScript
+    - tag: Jupyter
+    - tag: Geospatial Data
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Evolution of Life
+  github_url: https://github.com/DavidJVitale/evolution_of_life/
+  descr: This interactive game walks users through the 4 billion year history of Earth by allowing users to populate the Earth with new life as it evolves. Users gain insight into concepts such as continental drift, historic mass extinctions, etc.
+  descr_paragraph2: Created during the Esri employee hackathon, 2020. Desktop only.
+  screenshots:
+    - /assets/img/evolution-life-1.gif
+  demo: https://davidjvitale.com/tech/evolution-of-life/
+  tags:
+    - tag: JavaScript
+    - tag: Geospatial Data

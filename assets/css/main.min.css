@@ -130,6 +130,7 @@ a {
   color: #fff;
   margin: 0.5rem;
   padding: 1rem;
+  opacity: 0.3;
   text-align: center; }
 
 .footer a {
@@ -355,7 +356,8 @@ a {
 
 .project .name-link-wrapper {
   display: flex;
-  justify-content: space-between; }
+  justify-content: center;
+  align-items: center; }
 
 .project .name-link-wrapper .links {
   font-size: 1.5rem;
@@ -409,7 +411,6 @@ a {
   width: 100%; }
 
 .github-project-url {
-  margin: auto;
   margin-left: 1em; }
 
 .github-project-url:hover {
@@ -420,6 +421,14 @@ a {
   display: block;
   text-align: center;
   font-size: 1.5em; }
+
+.skills-tag-wrapper {
+  margin: 1rem 0 0 0;
+  margin-left: 1em; }
+
+.skills-name-wrapper {
+  display: block;
+  text-align: center; }
 
 /* Media Queries */
 @media only screen and (min-width: 48em) {

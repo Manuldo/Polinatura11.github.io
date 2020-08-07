@@ -3,17 +3,16 @@
   <div class="projects-wrapper">
     {% for skill in site.data.simple-skills %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
+        <div class="skills-name-wrapper">
           <h3>{{skill.name}}</h3>
-        <p class="project-desc">{{skill.descr}}</p>
+        </div>
         {% if skill.tags %}
-          <div class="tag-wrapper">
+          <div class="skills-tag-wrapper">
             {% for tag in skill.tags %}
               <span class="tag neumorphism-card">{{tag.tag}}</span>
             {% endfor %}
           </div>
         {% endif %}
-        </div>
       </div>
     {% endfor %}
   </div>
