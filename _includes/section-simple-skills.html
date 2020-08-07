@@ -1,0 +1,20 @@
+{% if site.show_simple_skills_card %}
+  <h1 class="title"><span>{{site.simple_skills_title}}</span></h1>
+  <div class="projects-wrapper">
+    {% for skill in site.data.simple-skills %}
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>{{skill.name}}</h3>
+        <p class="project-desc">{{skill.descr}}</p>
+        {% if skill.tags %}
+          <div class="tag-wrapper">
+            {% for tag in skill.tags %}
+              <span class="tag neumorphism-card">{{tag.tag}}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

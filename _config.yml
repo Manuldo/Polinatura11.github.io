@@ -40,7 +40,7 @@ about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, s
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: true
+show_skills_card: false
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
 
@@ -66,12 +66,19 @@ show_projects_card: true
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
 projects_title: Projects
+
+# DV ADDITION
+# A simpler 'skills' page that is basically a simple project page with less stuff
+show_simple_skills_card: true
+simple_skills_title: Skills
+
+
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
 show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: Open Source Projects
+os_projects_title: OSS Projects
 
 # CONTACT SECTION
 # show_contact_card:

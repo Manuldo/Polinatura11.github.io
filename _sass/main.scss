@@ -127,10 +127,8 @@ a {
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+  box-shadow: 3px 3px 2px #161718, -3px -3px 2px #404346; 
 }
-
 .neumorphism-card-big {
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
 }
@@ -647,12 +645,33 @@ a {
   }
 }
 
+/* DV addition */
+.project-screenshot {
+  width: 100%;
+}
+
+.github-project-url{
+  margin: auto;
+  margin-left: 1em;
+}
+
+.github-project-url:hover{
+  opacity: 0.5;
+}
+
+.project-demo-url{
+  color: $primary-color;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 /* Media Queries */
 
 @media only screen and (min-width: $small-screen) {
   .layout {
     margin: 0.5rem auto;
-    padding: 2rem 2rem;
+    padding: 1rem;
   }
 
   .layout .card .subtitle {

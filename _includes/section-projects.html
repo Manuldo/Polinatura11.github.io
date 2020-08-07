@@ -5,10 +5,23 @@
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
+          {% if project.github_url %}
+            <div class = "github-project-url">
+              <a href="{{project.github_url}}">
+                <img src="{{ "/assets/img/github-32-light.png" | prepend: site.baseurl }}">
+              </a>
+            </div>
+          {% endif %}
         </div>
         <p class="project-desc">{{project.descr}}</p>
+        {% if project.descr_paragraph2 %}
+            <p class="project-desc">{{project.descr_paragraph2}}</p>
+        {% endif %}
+        {% for screenshot in project.screenshots %}
+            <img class="project-screenshot" src="{{ screenshot | prepend: site.baseurl }}"></img>
+        {% endfor %}
         {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
+          <a class="project-demo-url" href="{{project.demo}}" target="_blank" rel="noreferrer">
             Demo
           </a>
         {% endif %}

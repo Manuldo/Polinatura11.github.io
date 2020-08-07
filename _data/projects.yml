@@ -13,14 +13,19 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Bears on ATVs
+  github_url: https://github.com/ludditegames/bears_on_atvs
+  descr: "This 2D sidescroller video game is about a rogue bear that learns to drive an ATV. Created with C# and the Godot Engine over 2+ years, this massive project makes heavy use of hierarchical object-oriented design patterns. Each node is a finite state machine, governed by strict priority-based rules for transitioning between states."
+  descr_paragraph2: "I had to gain working knowledge of the many diverse components that go into making a video game: physics, graphics, UI/UX, playability, etc. I also created all of the music and artwork, which was a delightful use of 'the other side of the brain'." 
+  screenshots:
+    - /assets/img/boatvs1.gif
+  demo: https://ludditegames.com/bears-on-atvs/
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: C#
+    - tag: Godot
+    - tag: UI/UX
+    - tag: Computer Graphics
+    - tag: NoSQL
 
 - name: project Y
   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"

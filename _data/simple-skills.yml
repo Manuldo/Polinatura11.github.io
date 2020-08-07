@@ -1,0 +1,13 @@
+- name: Languages
+  descr: Something foobar
+  tags:
+    - tag: C#
+    - tag: Python
+    - tag: JavaScript
+
+- name: Technologies
+  descr: Something foobar
+  tags:
+    - tag: AWS
+    - tag: Linux
+    - tag: Jekyll
