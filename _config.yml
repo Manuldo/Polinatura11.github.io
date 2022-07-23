@@ -1,28 +1,28 @@
 ### VALUES YOU SHOULD CHANGE ###
 
 # GENERAL SITE SETTINGS
-# title: This will be displayed as the website's name in your browser tab.
-title: David J Vitale
+# title: Polinatura
+title: Polinatura
 # description: This will be meta HTML tag content. This can be ignored.
-description: Professional Portfolio of David J Vitale
+description: Polinatura
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: "/portfolio"
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: David J Vitale
+username: Polinatura
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Software Engineer
+typing_text: Polinatura
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
-# > twitter_username:
+# > twitter_username:Polinatura
 # email: Your E-Mail address for the email button.
-email: davidjosephvitale@gmail.com
-github_username: DavidJVitale
-resume_url: https://davidjvitale.com/resume.pdf
-linkedin_username: david-vitale-ba111ba3
+email: Polinatura
+github_username: Polinatura
+resume_url: 
+linkedin_username: Polinatura
 twitter_username:
 codepen_username:
 dev_username:
@@ -33,9 +33,9 @@ dev_username:
 # > setting this to false, will omit the About Me section
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-about_me_title: About Me
+about_me_title: Polinatura
 # about_me_description: This will be displayed under the title.
-about_me_description: I am a quick-adapting Software Engineer passionate about disciplined development practices, automation, and lifelong learning of new technology. I have 5+ years professional experience in Web Development, API Development, and more. I am strong believer in Open Source Software, and try to use it wherever possible.
+about_me_description: Polinatura
 
 # SKILLS SECTION
 # show_skills_card:
